@@ -1,11 +1,11 @@
 {
     "name": "heroku-xray",
     "description": "Deploy xray VLESS-TCP-XTLS-WHATEVER on Heroku",
-    "keywords": ["heroku xray vless  tor"],
+    "keywords": ["heroku xray tor"],
     "env": {
         "UUID": {
             "description": "The ID for vmess/vless and password for trojan.",
-            "value": "c3c3949b-9942-4e41-bb20-68f75bb2a284"
+            "value": "fe919394-f173-4391-aabf-b98c8a499218"
         },
         "DOMAIN": {
             "description": "The Cloudflare worker domain or Heroku app domain used by end user.",
@@ -20,7 +20,7 @@
             "value": "4d7b910f88a846329264bf31cc3f5db4"
         }
     },
-    "website": "https://github.com/zhangsean/heroku-xray",
+    "website": "http://heroku-xray.herokuapp.com",
     "repository": "https://github.com/zhangsean/heroku-xray",
     "stack": "container"
 }
